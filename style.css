@@ -1,0 +1,10 @@
+/* Pancake Style */
+.container-1 {
+    display: grid;
+    height: 100vh;
+    grid-template-rows: auto 1fr auto;
+}
+
+.item {
+    border: solid 2px black;
+}
