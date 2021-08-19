@@ -8,3 +8,10 @@
 .item {
     border: solid 2px black;
 }
+
+/* 12-Column Grid */
+
+.container-2 {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+}
